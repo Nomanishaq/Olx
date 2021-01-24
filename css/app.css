@@ -1,8 +1,48 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Tajawal:wght@500&display=swap');
 
+body{
+    color: rgb(0, 47, 52);
+    background: #f4f4f4;
+}
+
 h1,h2,h3,h4,h5,h6{
     font-family: 'Tajawal', sans-serif;
 }
 p{
     font-family: 'Roboto', sans-serif;
+}
+/* Bootstrap 4 text input with search icon */
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.4rem;
+    height: 1.5rem;
+    bottom: 20px;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+.search{
+    border: 14px solid black;
+    height: 40px;
+    width: 100%;
+    outline: 0;
+    border-width: 0;
+    font-size: 16px;
+    color: #002f34;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    background: #fff;
+    padding: 0 0 0 16px;
+}
+.nav-item{
+    margin-left: 30px;
 }
